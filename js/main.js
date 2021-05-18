@@ -106,3 +106,21 @@ function redirecionar(){
 function mouseOn(){
   alert("Foi!!!");
 }
+
+
+
+
+function voltar(elemento) {
+  document.getElementById("mousemove2").innerHTML = "PASSE O MOUSE AQUI";
+}
+
+function trocar(elemento) {
+  elemento.innerHTML = "Obrigado por passar o mouse! "
+}
+
+//A FUNÇÃO TROCAR pode ser igual a funcao voltar, com o mesmo parametro!!!
+
+function funcaoChange(elemento) {
+  console.log(elemento.value);
+}
+
